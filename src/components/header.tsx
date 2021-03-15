@@ -1,14 +1,13 @@
-import * as React from "react"
-import PropTypes from "prop-types"
-import { Link } from "gatsby"
+import React from 'react'
+import { Link } from 'gatsby'
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
+type ComponentProps = {
+  siteTitle: string
+}
+
+// eslint-disable-next-line no-undef
+const Header = ({ siteTitle = '' }: ComponentProps): JSX.Element => (
+  <header className="bg-blue-500">
     <div
       style={{
         margin: `0 auto`,
@@ -30,13 +29,5 @@ const Header = ({ siteTitle }) => (
     </div>
   </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header
