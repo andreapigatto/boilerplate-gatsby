@@ -6079,20 +6079,6 @@ gatsby-core-utils@^2.4.0, gatsby-core-utils@^2.8.0, gatsby-core-utils@^2.9.0:
     tmp "^0.2.1"
     xdg-basedir "^4.0.0"
 
-gatsby-core-utils@^2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-2.9.0.tgz#f1ba30dfa687bdd2c1c5106d29e6491e5376e8c5"
-  integrity sha512-LKmkk4B/VnSEYKR9W/C8Lp9lwk/l/qY5jbsoiChc43F67VM667gITWH0noSUdcGzbEsN8xi0Wuc8dMA6BvKkvg==
-  dependencies:
-    ci-info "2.0.0"
-    configstore "^5.0.1"
-    file-type "^16.2.0"
-    fs-extra "^8.1.0"
-    node-object-hash "^2.0.0"
-    proper-lockfile "^4.1.1"
-    tmp "^0.2.1"
-    xdg-basedir "^4.0.0"
-
 gatsby-graphiql-explorer@^1.8.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-1.8.0.tgz#d8302bc99d95ee0dcc8300ddd4eebc92a8ef261f"
@@ -6215,18 +6201,19 @@ gatsby-plugin-react-helmet@^4.8.0:
   dependencies:
     "@babel/runtime" "^7.14.0"
 
-gatsby-plugin-sharp@^3.8.0:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-3.8.0.tgz#12f7f69e2fec399364fb58f303a7b1d337520815"
-  integrity sha512-SZ++IKq16np583FJqhez322Qz6FlHq6LdkChlR1m4jP1tiuEnsMMOh8R3RAt1qaaozQQeykMTRPUUgHPF4sSwg==
+gatsby-plugin-sharp@^3.9.0:
+  version "3.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-3.9.0.tgz#4dfa61be3907f6e5abc262e41d55be265e0a225f"
+  integrity sha512-DHaX390FyPVCVzVy+ALrzbMf7hjMHsIhaQu98bzsodOJ+0bispyh/Qohxq+i8Qeexy8+sy2mRrlDR3ahM5Yb6w==
   dependencies:
     "@babel/runtime" "^7.14.0"
     async "^3.2.0"
     bluebird "^3.7.2"
     filenamify "^4.2.0"
     fs-extra "^9.1.0"
-    gatsby-core-utils "^2.8.0"
-    gatsby-telemetry "^2.8.0"
+    gatsby-core-utils "^2.9.0"
+    gatsby-plugin-utils "^1.9.0"
+    gatsby-telemetry "^2.9.0"
     got "^10.7.0"
     imagemin "^7.0.1"
     imagemin-mozjpeg "^9.0.0"
@@ -6254,10 +6241,10 @@ gatsby-plugin-typescript@^3.8.0:
     "@babel/runtime" "^7.14.0"
     babel-plugin-remove-graphql-queries "^3.8.0"
 
-gatsby-plugin-utils@^1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-1.8.0.tgz#1e16c0df3cc96a67005a803b11abb887a3f1fad9"
-  integrity sha512-K/EiYx2kKd5BOuwWg86mrvrMh8u9hW40abFLZYH4zRAkthL+vYp/WeckVL/TibZ3jPUhhay9JGjXKR+Ot6BYDQ==
+gatsby-plugin-utils@^1.8.0, gatsby-plugin-utils@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-1.9.0.tgz#c7b124525486f56d4ccc5f78047f5b0fcb4521a7"
+  integrity sha512-jBx4GRGfsVw57wrqLZ5AkgMHFxcXfFCdwFOC11bDvM9Ls5LokNu2UYNXU0bCbl8agLPYZwEHYwZgaCgk3iQYGQ==
   dependencies:
     joi "^17.2.1"
 
