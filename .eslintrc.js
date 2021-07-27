@@ -50,6 +50,12 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     // to have jsx for Typescript extension too.
     'react/jsx-filename-extension': [1, { extensions: allExtensions }],
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: true,
+      },
+    ],
     // Important for solving Airbnb imports with Typescript. eslint-plugin-import don't manage it
     // https://github.com/benmosher/eslint-plugin-import/issues/1615
     'import/extensions': [
