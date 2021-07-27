@@ -6387,19 +6387,19 @@ gatsby-telemetry@^2.10.0, gatsby-telemetry@^2.8.0, gatsby-telemetry@^2.9.0:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-transformer-sharp@^3.8.0:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-3.8.0.tgz#d16f0fe8204399b1003ba81138e877bf2df84954"
-  integrity sha512-p3H7DN8kGjlC4rKdN9GYPWnD6u5GO611BcV1ebR60IQnQ/E8gM/SvX+gmX5KiEEXVmvveLY75umyibzLPXFhpQ==
+gatsby-transformer-sharp@^3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-3.10.0.tgz#533eb06475785997712b4fdc95cce40c0fd27776"
+  integrity sha512-QmzQST+PTHAkl5X2owPxPoOwiwlZBYdKKCZ7Nn8ANS8BUAxHlfpBGCUY5Y9/GDDAytGAmYE0C7sgWhUvvi5I3A==
   dependencies:
-    "@babel/runtime" "^7.14.0"
+    "@babel/runtime" "^7.14.6"
     bluebird "^3.7.2"
     common-tags "^1.8.0"
     fs-extra "^9.1.0"
     potrace "^2.1.8"
     probe-image-size "^6.0.0"
     semver "^7.3.4"
-    sharp "^0.28.0"
+    sharp "^0.28.3"
 
 gatsby-worker@^0.1.0:
   version "0.1.0"
