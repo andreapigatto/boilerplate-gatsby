@@ -1525,7 +1525,7 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.14.6", "@babel/runtime@^7.14.8", "@babel/runtime@^7.15.3", "@babel/runtime@^7.3.4", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7":
+"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.14.8", "@babel/runtime@^7.15.3", "@babel/runtime@^7.3.4", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7":
   version "7.15.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.15.4.tgz#fd17d16bfdf878e6dd02d19753a39fa8a8d9c84a"
   integrity sha512-99catp6bHCaxr4sJ/DbTGgHS4+Rs2RVd2g7iOap6SLGPDknRK9ztKNsE/Fg6QhSeh1FGE5f6gHGQmvvn3I3xhw==
@@ -6328,16 +6328,16 @@ gatsby-plugin-image@^1.4.1:
     objectFitPolyfill "^2.3.0"
     prop-types "^15.7.2"
 
-gatsby-plugin-manifest@^3.12.0:
-  version "3.12.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-3.12.0.tgz#6f9aa76489d84f3b71c88e29da209d8d497a9203"
-  integrity sha512-zEOgYi5sm+5SnElm5EGUkXfCUvyTAn8shWclVASNxGIHGexg2Lzuu90ZLaC8cXCuMwJ7keVIRZvivvBoDleIJQ==
+gatsby-plugin-manifest@^3.13.0:
+  version "3.13.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-3.13.0.tgz#ad7c207239a8295ae0dffaee9e4a13b7845b7987"
+  integrity sha512-izBaVUUnOId7IlX7nDjgnFqxx2insGbm4r+CwlmyjF5slETdvxifERPX8ng+WAscbh3qvJ/vlgLlbbjjfvJe9w==
   dependencies:
     "@babel/runtime" "^7.14.8"
-    gatsby-core-utils "^2.12.0"
-    gatsby-plugin-utils "^1.12.0"
+    gatsby-core-utils "^2.13.0"
+    gatsby-plugin-utils "^1.13.0"
     semver "^7.3.5"
-    sharp "^0.28.3"
+    sharp "^0.29.0"
 
 gatsby-plugin-offline@^4.13.0:
   version "4.13.0"
