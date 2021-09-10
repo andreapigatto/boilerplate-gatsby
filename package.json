@@ -22,7 +22,7 @@
     "tailwindcss": "^2.2.14"
   },
   "devDependencies": {
-    "@types/node": "^16.9.0",
+    "@types/node": "^16.9.1",
     "@types/react": "^17.0.20",
     "@types/react-dom": "^17.0.9",
     "@types/react-helmet": "^6.1.2",
